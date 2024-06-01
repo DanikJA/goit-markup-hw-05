@@ -324,6 +324,7 @@ height: 100%;
 position: fixed;
 top: 0;
 left: 0;
+z-index: 10;
 }
 
 .backdrop.is-hidden{
@@ -357,7 +358,7 @@ background: #fff;
    border-color:  rgba(0, 0, 0, 0.1);
    border-width: 1px;
    align-items: center;
-   justify-content:center;
+   justify-content: center;
 }
 
 .site-nav {
@@ -697,6 +698,43 @@ li {
 button {
     font-family: inherit;
 }
+
+                                  /* Overlay */
+.images-li {
+    position: absolute;
+}
+
+                  
+.overlay{
+    position: absolute;
+    transform: translateY(-139%);
+    position: relative;
+    width: 370px;
+    height: 294px;
+    background: rgba(33, 150, 243, 0.9);
+}
+
+.project-text{
+    position:relative;
+    opacity: 0;  
+    padding: 63px 24px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.55556;
+        letter-spacing: 0.03em;
+        color: #fff;
+       
+}
+
+.list-links:hover .project-text,
+.list-links:focus .project-text{
+transform: translateY(0%);
+opacity: 1;
+
+}
+
+
+
 
 .tagline .list-links:hover,
 .tagline .list-links:focus {
