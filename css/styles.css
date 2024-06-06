@@ -355,7 +355,7 @@ height: 581px;
 box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 background: #fff;
 
-transition-property: box-shadow;
+transition-property: box-shadow,opacity,visibility;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -375,9 +375,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    align-items: center;
    justify-content: center;
 
-transition-property: box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-property: box-shadow,opacity,visibility;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
